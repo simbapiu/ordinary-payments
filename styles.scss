@@ -1,0 +1,165 @@
+html, body{
+  background-color: #cecece;
+  font-family: "Product Sans", Serif;
+  font-weight: bold;
+}
+
+html{
+  overflow-y: hidden;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  color: rgb(74, 74, 74);
+}
+
+.card{
+  width: auto;
+  height: 90px;
+  border-radius: .2em;
+  background-color: #FFF;
+  position: static;
+  margin: 10px;
+}
+
+.details-card{
+  margin: auto;
+  padding: 10px;
+  width: 750px;
+  height: 70px;
+}
+
+.header-details{
+  width: 500px;
+  height: 37.5px;
+}
+
+.amount{
+  width: 120px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  float: left;
+  height: 20px;
+  padding: 25px 0 25px 10px;
+
+  box-shadow: -2px 0 0 0 #cecece;
+}
+
+.details-payment{
+  margin: auto;
+  width: 620px;
+  float: left;
+  height: 70px;
+}
+
+.ordinary-payments{
+  float: left;
+  font-size: 18px;
+  padding: 10px 10px 2.5px 10px;
+  height: 25px;
+}
+
+.date{
+  float: left;
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+  padding: 14px 10px 5.5px 10px;
+  height: 18px;
+}
+
+.proof-of-payments{
+  position: static;
+  font-size: 14px;
+  padding: 2.5px 0 10px 10px;
+  height: 17.5px;
+  width: 610px;
+}
+
+.proof-of-payments a{
+  text-decoration: none;
+  color: rgb(141, 122, 255);
+}
+
+@media screen and (max-width:800px) {
+  .container{
+    width: 304px;
+    margin: auto;
+    padding: 0;
+    color: rgb(74, 74, 74);
+  }
+
+  .card{
+    width: auto;
+    height: 130px;
+    border-radius: .2em;
+    background-color: #FFF;
+    position: static;
+    margin: 10px 0;
+  }
+
+  .details-card{
+    margin: auto;
+    padding: 10px 0;
+    width: 304px;
+    height: 110px;
+  }
+
+  .header-details{
+    width: 304px;
+    height: 37.5px;
+  }
+
+  .amount{
+    width: 304px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    height: 20px;
+    padding: 15px 0 15px 0;
+    box-shadow: 0 -2px 0 0 #cecece;
+  }
+
+  .details-payment{
+    margin: auto;
+    width: 304px;
+    height: 70px;
+  }
+
+  .ordinary-payments{
+    float: left;
+    font-size: 18px;
+    padding: 10px 10px 2.5px 10px;
+    height: 25px;
+    width: 132px;
+    margin: auto;
+  }
+
+  .date{
+    float: left;
+    color: rgb(155, 155, 155);
+    font-size: 14px;
+    padding: 14px 10px 5.5px 10px;
+    height: 18px;
+    width: 132px;
+    margin: auto;
+    text-align: right;
+  }
+
+  .proof-of-payments{
+    position: static;
+    font-size: 14px;
+    padding: 2.5px 0 10px 0;
+    text-align: center;
+    height: 17.5px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .proof-of-payments a{
+    text-decoration: none;
+    color: rgb(141, 122, 255);
+  }
+}
